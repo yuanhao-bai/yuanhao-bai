@@ -1,74 +1,73 @@
 # Yuanhao (Hoilis) Bai
 
-Undergraduate researcher in Safety Engineering at Central South University. My work centers on real-time embedded cyber-physical systems (CPS), edge AIoT, hardware-in-the-loop (HIL) validation, and safety-critical sensing-decision-actuation pipelines.
+Safety Engineering undergraduate at Central South University, working on edge-assisted embedded cyber-physical systems for safety-critical monitoring, fire-risk sensing, and prototype-level validation.
 
-I am currently applying for summer RA and PhD opportunities in Hong Kong and Macao, with research interests in real-time embedded CPS, edge AIoT, HIL-style validation, EV battery thermal runaway intervention, and fire dynamics simulation.
+I am preparing for RA / PhD opportunities in Hong Kong, Macau, and Singapore, with interests in real-time embedded CPS, Edge AIoT, multi-modal risk fusion, fire safety, emergency intervention, and HIL-oriented validation planning.
 
 ## Research Interests
 
-- Real-time embedded cyber-physical systems
-- Edge AIoT for safety-critical monitoring and intervention
-- Hardware-in-the-loop (HIL) validation methodologies
-- EV battery thermal runaway early warning and intervention
-- Fire dynamics simulation and multimodal sensing fusion
+- Real-time embedded cyber-physical systems for safety-critical scenarios
+- Edge AIoT and multi-modal sensing for fire-risk monitoring
+- Sensing-decision-actuation loops and embedded actuation control
+- Prototype-level validation, timing analysis, and evidence-aware research development
+- Fire safety, emergency management, and simulation-supported validation planning
 
-## Selected Research Project
+## Featured Project: FireGuard
 
-### Edge-Assisted Multimodal Perception and HIL-Style Validation for NEV Thermal Runaway Intervention
+**Edge-assisted multi-modal sensing and embedded control prototype for EV fire-risk monitoring**
 
-A safety-critical embedded CPS prototype for early warning and physical intervention in new energy vehicle (NEV) thermal runaway scenarios, especially for enclosed underground parking environments.
+FireGuard is framed as a safety-critical embedded CPS prototype, not as a mature commercial product. The project focuses on an end-to-end sensing-decision-actuation loop for underground EV parking fire-risk monitoring.
 
-**System architecture and technical highlights**
+- Built a **Jetson Nano + ESP32 closed-loop prototype** linking multi-modal sensing, weighted risk fusion, serial communication, and ESP32-side actuation control.
+- Integrated **80x62 infrared thermal sensing**, MQ-2 smoke/gas indication, and visible fire/smoke cues for event-triggered monitoring.
+- Observed weighted risk-decision response at approximately **1 s** in video-supported prototype observations.
+- Completed **100+ practical prototype actuation trials** on a 390 V electromagnetic ejection testbed, supported by prototype demonstration videos.
+- Chinese Invention Patent Application No. **202610514577.7**, accepted and under review; **First Inventor**.
 
-- **Edge intelligence node:** Jetson Orin Nano
-- **Real-time control node:** ESP32
-- **Actuator timing design:** timer/ISR-based sequencing with **50 μs** inter-channel spacing
-- **Thermal sensing:** MLX90640 infrared thermal array
-- **Gas sensing:** MQ-2
-- **Vehicle telemetry:** GB/T 27930-based BMS telemetry integration
-- **Decision reliability:** internal-external consistency checking to reduce false alarms
-- **Multimodal fusion logic:** dynamic weighted evaluation model
-- **High-voltage interface protection:** TLP250H optocoupler isolation
-- **Validation platform:** 390V electromagnetic ejection testbed with HIL-style validation workflow
+Current research extension: structured response-time logging, sensor timestamping, edge-side decision latency, serial command-dispatch delay, ESP32-side scheduling, actuation feedback timing, and repeatable mock-input tests for timing-aware embedded CPS validation.
 
-**Current status**
+## Additional Research Direction
 
-- Chinese Invention Patent Application No. **202610514577.7** (First Inventor)
-- Manuscript in preparation
+### Multimodal Edge AI System for Driving Fatigue and Distraction Detection
 
-## Additional Project
+- Designed a preliminary multi-modal sensing framework combining visual features, audio cues, and smoke/gas state input.
+- Prepared system-framework figures, prior-art mapping, and technical disclosure materials for a related Chinese invention patent disclosure under drafting.
 
-### CSU Internship Hub
+## Technical Stack
 
-A web-based internship guidance and peer resource platform for students in the School of Resources and Safety Engineering, Central South University.
+**Programming / Documentation**  
+Python, C/C++, Markdown, HTML/CSS, GitHub, VS Code, PySide6, OpenCV, serial communication
 
-Repository: [csu-internship-hub](https://github.com/yuanhao-bai/csu-internship-hub)
+**Embedded & Edge AI**  
+Jetson Nano, ESP32, STM32, Arduino / PlatformIO, GPIO/PWM, relay control, sensor integration, weighted risk fusion
 
-## Technical Profile
+**Simulation & Engineering Tools**  
+SolidWorks, ANSYS basics, FDS/PyroSim basics, COMSOL / MATLAB coursework exposure, PCB/BOM interpretation
 
-**Embedded / Real-Time Systems**  
-ESP32, STM32, C/C++, hardware timers, ISR design, GPIO/PWM, UART/serial communication
+**Research Documentation & Validation Preparation**  
+Experiment records, pin maps, serial-log evidence notes, prototype demonstration documentation, HIL-oriented validation planning, claim-risk checking, research CV and project-summary preparation
 
-**Edge Computing / AIoT**  
-Jetson Orin Nano, Python, Linux, sensor integration, data logging, edge inference deployment
+## Selected Awards
 
-**Sensing / Hardware**  
-MLX90640, MQ-2, BMS telemetry interfaces, PCB design, TLP250H optocoupler isolation, high-voltage prototyping safety
-
-**Simulation / Fire Safety**  
-ANSYS Fluent (CFD), FDS/PyroSim, NCM lithium-ion battery thermal runaway analysis, smoke and fire dynamics simulation
-
-**Documentation / Development**  
-Git, GitHub, Markdown, LaTeX, technical documentation
+- **National Second Prize**, 10th National College Student Safety Science and Engineering Practice & Innovation Works Competition, 2024
+- **National Third Prize**, 11th National College Student Safety Science and Engineering Practice & Innovation Works Competition, 2025. Project Lead
+- **Silver Award**, Challenge Cup CSU Campus Competition, Central South University, 2026
+- **Third-Class Academic Scholarship**, Central South University, 2024-2025
 
 ## Academic Background
 
-- B.Eng. in Safety Engineering, Central South University (expected 2027)
-- Latest semester average: 90.16/100
-- Latest semester rank: 11/71
-- National 2nd and 3rd Prize, Student Safety Science and Engineering Practice & Innovation Competition
+- B.Eng. in Safety Engineering, Central South University, expected June 2027
+- Latest semester average: **90.16/100**; latest semester rank: **11/71**
+- Relevant coursework: Safety Detection and Monitoring Technology, Environmental Engineering, University Physics Experiment, Practice in Electrics and Electronics
+
+## What I Am Building Next
+
+- A public-safe GitHub documentation version of FireGuard with sensitive technical details removed
+- Timing-aware project summaries for embedded CPS / Edge AIoT research applications
+- Reproducible experiment-record templates for prototype-level validation planning
+- Small embedded AIoT demos around sensing, serial communication, and edge-side decision logic
 
 ## Contact
 
-Email: yh.bai@csu.edu.cn  
-GitHub: https://github.com/yuanhao-bai
+- Email: yh.bai@csu.edu.cn
+- GitHub: [yuanhao-bai](https://github.com/yuanhao-bai)
