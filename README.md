@@ -2,8 +2,6 @@
 
 Safety Engineering undergraduate at Central South University, working on edge-assisted embedded cyber-physical systems for safety-critical monitoring, fire-risk sensing, and prototype-level validation.
 
-I am preparing for RA / PhD opportunities in Hong Kong, Macau, and Singapore, with interests in real-time embedded CPS, Edge AIoT, multi-modal risk fusion, fire safety, emergency intervention, and HIL-oriented validation planning.
-
 ## Research Interests
 
 - Real-time embedded cyber-physical systems for safety-critical scenarios
